@@ -7,7 +7,7 @@ app = Flask(__name__, template_folder='template')
 # Connect to MongoDB
 client = MongoClient('localhost', 27017)
 db = client.fraud_detection
-
+#test
 fraud_data_collection = db.user_profile
 fraud_log_col = db.fraud_log
 user_details_col = db.User_Details  
